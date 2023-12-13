@@ -1,4 +1,5 @@
 ---
+
 ## Our goal is to create a playbook that perform pre-checks, changes, and post-checks.
 ## Upon a failure / error, the playbook will "ROLLBACK" any changes it has made thus far.
 ## This playbook can serve as a template for constructing 'intelligent' playbooks
