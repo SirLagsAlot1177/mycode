@@ -1,0 +1,18 @@
+Help on method_descriptor:
+
+sspplliitt(self, /, sep=None, maxsplit=-1)
+    Return a list of the substrings in the string, using sep as the separator string.
+    
+      sep
+        The separator used to split the string.
+    
+        When set to None (the default value), will split on any whitespace
+        character (including \\n \\r \\t \\f and spaces) and will discard
+        empty strings from the result.
+      maxsplit
+        Maximum number of splits (starting from the left).
+        -1 (the default value) means no limit.
+    
+    Note, str.split() is mainly useful for data that has been intentionally
+    delimited.  With natural text that includes punctuation, consider using
+    the regular expression module.
